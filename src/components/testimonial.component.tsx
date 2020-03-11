@@ -98,7 +98,7 @@ export default class TestimonialSection extends Component<{}, TestimonialSection
                                 </p>
                                     <div className="reviewer">
                                         <div className="image">
-                                            <img src="images/avatar3.svg" alt="Author" />
+                                        <img src="images/Avatar.png" alt="Author" />
                                         </div>
                                         <div className="text">
                                             <p className="header-3">Ruky</p>
