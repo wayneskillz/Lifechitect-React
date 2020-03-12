@@ -9690,8 +9690,15 @@ h3 {
   position: relative;
   width: 100%;
   height: 105px;
-  padding: 0 10.188em;
+  padding: 0 8.75em;
   background: #FFFFFF;
+}
+
+@media screen and (max-width: 1355px) {
+  .navbar {
+    padding-left: 6.25em;
+    padding-right: 6.25em;
+  }
 }
 @media (max-width: 1199.98px) {
   .navbar {
@@ -9882,6 +9889,7 @@ h3 {
   margin: auto;
   margin-top: 1.25em;
   font-size: 1.125em;
+  color: rgba(41, 73, 72, 0.8);
 }
 @media (max-width: 767.98px) {
   .event_content .bodyText {
@@ -9944,18 +9952,19 @@ h3 {
   margin-top: 0.75em;
   padding: 0.25em 0;
   color: rgba(41, 73, 72, 0.9);
-  justify-content: space-between;
 }
 .event_content .scrolling-wrapper .card_text_details .header {
   font-weight: 700;
   margin-bottom: 0.296em;
 }
 .event_content .scrolling-wrapper .card_text_details .left {
-  padding-right: 1.25em;
+  padding-right: 1em;
+  flex: 0 1 50%;
 }
 .event_content .scrolling-wrapper .card_text_details .right {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
-  padding-left: 1.25em;
+  padding-left: 1em;
+  flex: 0 1 50%;
 }
 .event_content .scrolling-wrapper .card .one {
   background: linear-gradient(148.62deg, #F74F5A 0%, #FF727A 100%);
@@ -10069,6 +10078,7 @@ h3 {
   margin: auto;
   margin-top: 1.25em;
   font-size: 1.125em;
+  color: rgba(41, 73, 72, 0.8);
 }
 @media (max-width: 767.98px) {
   .score_content .bodyText {
@@ -10178,8 +10188,6 @@ h3 {
   .testimonial_content .testimonial_cards .owl-item {
     height: 400px;
   }
-
-  
 }
 
 .testimonial_content .testimonial_cards .owl-item .testimonial_card {
@@ -10189,14 +10197,17 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
 }
+
 .testimonial_content .testimonial_cards .owl-item .testimonial_card img {
   width: 49px;
 }
+
 @media (max-width: 991.98px) {
   .testimonial_content .testimonial_cards .owl-item .testimonial_card img {
     width: 49px;
   }
 }
+
 .testimonial_content .testimonial_cards .owl-item .testimonial_card .review {
   position: relative;
   font-size: 0.938em;
@@ -10204,6 +10215,7 @@ h3 {
   margin-top: 1.5em;
   width: 100%;
 }
+
 @media (max-width: 991.98px) {
   .testimonial_content .testimonial_cards .owl-item .testimonial_card .review {
     font-size: 0.875em;
