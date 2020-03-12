@@ -45,7 +45,7 @@ const FooterSection = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://linkedin.com/company/liferithms" target="_blank" rel="noopener noreferrer">
+                                <a className="nav-link" href="https://www.linkedin.com/showcase/lifechitect/about/" target="_blank" rel="noopener noreferrer">
                                     <img src="svgs/linkedIn.svg" alt="LinkedIn" />
                                 </a>
                             </li>
