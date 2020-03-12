@@ -6,7 +6,7 @@ const EventSection = () => {
             <div className="event_content row justify-content-center">
                 <div className="col-12">
                     <h3 className="header-3 text-center">
-                       What is Lifechitect ?
+                       What is Lifechitect?
                 </h3>
                     <p className="bodyText text-center">
                         Lifechitect is an activity tracking app that uses event categories to help you organize your tracked activities.
