@@ -1,32 +1,28 @@
 import React from 'react';
-import './App.css';
-import Nav from './components/nav.component';
-import IntroSection from './components/intro.component';
-import EventSection from './components/event.component';
-import HowItWorksSection from './components/howitwork.component';
-import ScoreSection from './components/scoresection.component';
-import TestimonialSection from './components/testimonial.component';
-import ActivtiySection from './components/activity.component';
-import StoreSection from './components/store.component';
-import FooterSection from './components/footer.component';
+import PrivacyPolicyPage from './view/privacy.page';
+import IndexPage from './view/index.page';
+import TermsPage from './view/terms.page';
+import { BrowserRouter as Router, Switch } from "react-router-dom";
+import Page404 from './components/page404.component';
 
+const Route = require("react-router-dom").Route;
 
 
 function App() {
 
 	return (
-		<div>
-			<Nav />
-			<IntroSection />
-			<EventSection />
-			<HowItWorksSection />
-			<ScoreSection />
-			<TestimonialSection />
-			<ActivtiySection />
-			<StoreSection />
-			<FooterSection />
-		</div>
+		//<IndexPage />
+		// <TermsPage />
+		<Router>
+			<Switch>
+				<Route path="/" exact strict component={IndexPage} />
+				<Route path="/terms" exact strict component={TermsPage} />
+				<Route path="/privacy" exact strict component={PrivacyPolicyPage} />
+				<Route path='*' exact={true} component={Page404} />
+			</Switch>
+		</Router>
 	);
 }
 
 export default App;
+
