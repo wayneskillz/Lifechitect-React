@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-interface NavState {
+interface TermsNavState {
     menu: boolean
 }
 
-export default class Nav extends Component<{}, NavState> {
+export default class TermsNav extends Component<{}, TermsNavState> {
 
     constructor(props) {
         super(props);
@@ -22,21 +22,21 @@ export default class Nav extends Component<{}, NavState> {
 
         const show = (this.state.menu) ? "show" : "";
         const menucontentStyle = {
-            backgroundColor: "white",
+            backgroundColor: "#EBFFF4",
             boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.08)",
         };
 
         return (
-            <nav className="navbar" id="navbar">
+            <nav className="navbar termPrivacyNav" id="navbar">
                 <a className="navbar-brand" href="/">
                     <img src="svgs/lifechitect_full_logo.svg" alt="Lifechitect's logo" />
                 </a>
                 <ul className="nav d-none d-md-flex">
                     <li className="nav-item">
-                        <a className="nav-link" href="#howItWorks">How It Works</a>
+                        <a className="nav-link" href="/terms">Term of Use</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contactus">Contact Us</a>
+                        <a className="nav-link" href="/privacy">Privacy Policy</a>
                     </li>
                 </ul>
                 <button className="navbar-toggler d-md-none" onClick={this.toggleMenu}>
@@ -44,13 +44,13 @@ export default class Nav extends Component<{}, NavState> {
                         <i className="fas fa-bars"></i>
                     </span>
                 </button>
-                <div className={"collapse navbar-collapse " + show} id="menu-content" style={menucontentStyle}>
+                <div className={"collapse navbar-collapse " + show} id="menuContent" style={menucontentStyle}>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#howItWorks">How It Works</a>
+                            <a className="nav-link" href="/terms">Term of Use</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contactus">Contact Us</a>
+                            <a className="nav-link" href="/privacy">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
