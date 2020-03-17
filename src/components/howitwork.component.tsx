@@ -25,7 +25,7 @@ const HowItWorksSection = () => {
                             <p>Build positive habits</p>
                         </div>
                         <div className="phoneImage">
-                            <img src="images/Group 469.png" alt="Phone" />
+                            <img src="images/Group 471.png" alt="Phone" />
                             <p>Improve your lifescore</p>
                         </div>
                     </div>

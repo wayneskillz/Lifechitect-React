@@ -64,7 +64,7 @@ const EventSection = () => {
                         </div>
                         <div className="card">
                             <div className="card_illustration three">
-                                <img src="svgs/career.svg" alt="Illustration" />
+                                <img src="svgs/pers.svg" alt="Illustration" />
                             </div>
                             <div className="card_text">
                                 <h4 className="card_text_header header-3">Personal Development</h4>
@@ -79,7 +79,7 @@ const EventSection = () => {
                                     <div className="right">
                                         <p className="header">Benefit:</p>
                                         <p className="body">
-                                            Resilience
+                                            Emotional <br/> & Mental Energy
                                     </p>
                                     </div>
                                 </div>
@@ -150,8 +150,7 @@ const EventSection = () => {
                                     <div className="right">
                                         <p className="header">Benefit:</p>
                                         <p className="body">
-                                            Companionship<br />
-                                        & Intimacy
+                                            Companionship<br />& Intimacy
                                     </p>
                                     </div>
                                 </div>
@@ -198,7 +197,7 @@ const EventSection = () => {
                                     <div className="right">
                                         <p className="header">Benefit:</p>
                                         <p className="body">
-                                            Recovery
+                                            Recovery <br/>&Recharge
                                     </p>
                                     </div>
                                 </div>
@@ -245,7 +244,7 @@ const EventSection = () => {
                                     <div className="right">
                                         <p className="header">Benefit:</p>
                                         <p className="body">
-                                            Commuting
+                                            Commuting <br/>& Transportation
                                     </p>
                                     </div>
                                 </div>

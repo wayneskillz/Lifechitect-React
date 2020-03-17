@@ -9763,6 +9763,7 @@ h3 {
 .intro {
   position: relative;
   padding: 2.875em 8.75em;
+  height: 100vh;
 }
 @media screen and (max-width: 1355px) {
   .intro {
@@ -9953,6 +9954,11 @@ h3 {
   padding: 0.25em 0;
   color: rgba(41, 73, 72, 0.9);
 }
+
+.event_content .scrolling-wrapper .card_text_details .body {
+ font-size: 15px;
+}
+
 .event_content .scrolling-wrapper .card_text_details .header {
   font-weight: 700;
   margin-bottom: 0.296em;
@@ -9964,6 +9970,7 @@ h3 {
 .event_content .scrolling-wrapper .card_text_details .right {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
   padding-left: 1em;
+  padding-right: 1em;
   flex: 0 1 50%;
 }
 .event_content .scrolling-wrapper .card .one {

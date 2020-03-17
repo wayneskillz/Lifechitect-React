@@ -24,10 +24,10 @@ const FooterSection = () => {
                     <div className="footer_links">
                         <ul className="nav flex-column">
                             <li className="nav-item">
-                                <a className="nav-link" href="/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                                <a className="nav-link" href="/privacy"  rel="noopener noreferrer">Privacy Policy</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/terms" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+                                <a className="nav-link" href="/terms"  rel="noopener noreferrer">Terms of Use</a>
                             </li>
                         </ul>
                     </div>
